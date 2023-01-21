@@ -1,0 +1,60 @@
+
+
+#container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.find-pages-with{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+#form-container{
+    display: flex;
+    column-gap: 20px;
+}
+
+.paragraphs{
+    display: flex;
+    flex-direction: column;
+    row-gap: 31px;
+    flex-shrink: 0;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+}
+
+.input{
+    border: 1px solid grey;
+    border-radius: 2px;
+    outline: none;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.button{
+    width: 140px;
+    height: 35px;
+    margin-left: 173px;
+    margin-top: 10px;
+    border: 1px solid #3079ed;
+    border-radius: 3px;
+    background-color: #4d90fe;
+    color: white;
+}
+
+.button:hover{
+    background-color: #478cfa;
+}
+
+.button:active{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15) inset;
+}

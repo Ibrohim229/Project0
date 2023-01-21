@@ -1,0 +1,23 @@
+#header{
+    position: fixed;
+    right: 15px;
+    display: flex;
+}
+
+#right_section{
+    display: flex;
+    column-gap: 10px;
+}
+
+.buttons{
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #4d90fe;
+    transition: box-shadow 0.15s;
+}
+
+.buttons:hover{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}

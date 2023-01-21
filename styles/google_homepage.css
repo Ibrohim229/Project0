@@ -1,0 +1,74 @@
+
+
+#main_page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#input_area{
+    display: flex;
+    height: 50px;
+}
+
+.google-logo{
+    width: 400px;
+}
+
+.input-search{
+    width: 450px;
+    font-size: 17px;
+    padding-left: 25px;
+    outline: none;
+    border: 1px solid rgb(209, 208, 208);
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.search-icon{
+    height: 25px;
+    vertical-align: middle;
+}
+
+.submit-search{
+    cursor: pointer;
+    width: 65px;
+    height: 50px;
+    vertical-align: middle;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border: 1px solid rgb(209, 208, 208);
+    margin-left: -1px;
+    background-color: white;
+}
+
+.submit-search:hover{
+    background-color: rgb(247, 247, 247);
+}
+
+#buttons{
+    display: flex;
+    margin-top: 20px;
+    column-gap: 15px;
+    justify-content: center;
+}
+
+.lucky,
+.google-search{
+    padding: 10px 20px 10px 20px;
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.lucky:hover,
+.google-search:hover{
+    box-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.lucky:active,
+.google-search:active{
+    background-color: #f2f2f5;
+}
+

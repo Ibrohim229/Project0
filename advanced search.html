@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Advanced Search
+        </title>
+
+        <link rel="stylesheet" href="styles/advanced_search.css">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+
+    </head>
+
+    <body>
+        <header id="header">
+            <div id="right_section">
+                <div class="img-search">
+                    <button class="buttons">
+                        <a href="google image search.html">
+                            Back to Google Search
+                        </a>
+                    </button>
+                </div>
+                <div class="advanced-search">
+                    <button class="buttons">
+                        <a href="google image search.html">
+                            Google Image Search
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <main id="container">
+            <div class="main-header">
+                <h2 class="find-pages-with">Find Pages with:</h2>
+            </div>
+
+            <div id="form-container">
+                <div class="paragraphs">
+                    <p> &#x2022; all these words:</p>
+                    <p> &#x2022; this exact word or phrase:</p>
+                    <p> &#x2022; any of these words:</p>
+                    <p> &#x2022; none of these words:</p>
+                </div>
+
+                <form action="https://www.google.com/search">
+                    <div class="form">
+                        <input type="text" name="as_q" class="input">
+                        <input type="text" name="as_epq" class="input">
+                        <input type="text" name="as_oq" class="input">
+                        <input type="text" name="as_eq" class="input">
+                        <input type="submit" class="button" value="Search">
+                    </div>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>
